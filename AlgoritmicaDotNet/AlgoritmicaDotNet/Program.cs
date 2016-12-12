@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlgoritmicaDotNet.DP;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,11 @@ namespace AlgoritmicaDotNet
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("MaxSubArrayOf: {3,1,-2,-3,-1,3,2,-2,-1}");
+            int[] array = new int[9] { 3, 1, -2, -3, -1, 3, 2, -2, -1 };
+            var maxSubArray = MaxSubArray.GetMaxSubArray(array);
+            Console.WriteLine(maxSubArray);
+            Console.ReadLine();
         }
     }
 }
