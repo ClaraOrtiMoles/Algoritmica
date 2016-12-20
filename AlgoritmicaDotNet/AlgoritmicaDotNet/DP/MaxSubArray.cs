@@ -33,12 +33,13 @@ namespace AlgoritmicaDotNet.DP
                 {
                     sofar = current;
                 }
-              
+                
                 max = sofar > max ? sofar : max;
             }
 
             return max;
 
         }
+        
     }
 }
