@@ -2,6 +2,20 @@
 # Algoritmica
 This is a repository to create basic algoritmics problems.
 
+##Recursividad:
+En programación, un método usual de simplificación de un problema complejo es la división de este en subproblemas del mismo tipo. Esta técnica de programación se conoce como divide y vencerás y es el núcleo en el diseño de numerosos algoritmos de gran importancia, así como también es parte fundamental de la programación dinámica.
+Fuente: https://es.wikipedia.org/wiki/Recursi%C3%B3n#Recursi.C3.B3n_en_inform.C3.A1tica
+
+Un ejemplo típico de recursión o recursividad es el de las torres de hanoi: http://www.uterra.com/juegos/torre_hanoi.php
+
+Este juego consiste en mover los discos del palo de la izquierda al palo de la derecha teniendo el palo del medio como auxiliar, la estrategia abordada en la solución de este problema ha sido:
+
+* Cuando solo hay un disco solo hay que moverlo del origen al destino 
+* Supongamos que podemos mover de origen a centro n-1 discos 
+* movemos de origen a destino el disco que se ha quedado solo
+* movemos de centro a derecha los n-1 
+
+
 ##Programación dinámica:
 En informática, la programación dinámica es un método para reducir el tiempo de ejecución de un algoritmo mediante la utilización de subproblemas superpuestos y subestructuras óptimas.
 Una subestructura óptima significa que se pueden usar soluciones óptimas de subproblemas para encontrar la solución óptima del problema en su conjunto.
